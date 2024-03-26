@@ -1,0 +1,11 @@
+This code would take an input from a user and generate a name for a band using the parameters city and the user's pet name
+print("input name:")
+user_name = input("input name:")
+print("Welcome to the band generator", user_name)
+print("what's name of the city you grew up in?")
+user_city = input("input city:")
+print("What's your favorite area in your city:")
+fav_area = input("input favorite area:")
+
+band_name = user_city + fav_area
+print("your band name could be ", band_name)
